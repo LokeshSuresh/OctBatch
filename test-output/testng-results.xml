@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29348" started-at="2020-08-10T13:55:19Z" finished-at="2020-08-10T13:55:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29348" started-at="2020-08-10T13:55:19Z" finished-at="2020-08-10T13:55:49Z">
+      <class name="org.testng.PriorityClass">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.testng.PriorityClass@482f8f11]" name="login" duration-ms="11483" started-at="2020-08-10T13:55:19Z" data-provider="smoke" finished-at="2020-08-10T13:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JAVA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.testng.PriorityClass@482f8f11]" name="login" duration-ms="7032" started-at="2020-08-10T13:55:31Z" data-provider="smoke" finished-at="2020-08-10T13:55:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lokesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.testng.PriorityClass@482f8f11]" name="login" duration-ms="10790" started-at="2020-08-10T13:55:38Z" data-provider="smoke" finished-at="2020-08-10T13:55:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vipin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- org.testng.PriorityClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
